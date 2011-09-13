@@ -1,0 +1,138 @@
+public class Jeton implements Serializable
+{
+
+	JetonCouleur Couleur = JetonCouleur.Blanc;
+	int Compteur = 0;
+	String Contenu = "";
+	JetonType Type = JetonType.Client;
+	String NomServeur = "";
+	String NomClient = "";
+	int Largeur = 0;
+	int Longueur = 0;
+	int[] Image = null;
+	int numPartieImage = 0;
+	boolean acces = false;
+
+	public Jeton(JetonType t, String nomServeur)
+	{
+		this.Type = t;
+		this.NomServeur = nomServeur;
+		this.Type = JetonType.Client;
+		this.acces = false;
+	}
+
+	public Jeton(String nomClient, int[] image, int longueur, int largeur)
+	{
+		this.NomClient = nomClient;
+		this.Image = image;
+		this.Longueur = longueur;
+		this.Largeur = largeur;
+		this.Type = JetonType.Serveur;
+	}
+
+	public Jeton(JetonCouleur color, int compteur, String nomServeur)
+	{
+		this.Couleur = color;
+		this.Compteur = compteur;
+		this.NomServeur = nomServeur;
+		this.Type = JetonType.Stop;
+	}
+
+	public Jeton(String nomClient, int numPartieImage, String nomServeur)
+	{
+		this.NomClient = nomClient;
+		this.numPartieImage = numPartieImage;
+		this.NomServeur = nomServeur;
+		this.Type = JetonType.ServeurClient;
+	}
+
+	public void setNomServeur(String nom)
+	{
+		this.NomServeur = nom;
+	}
+
+	public String getNomServeur()
+	{
+		return this.NomServeur;
+	}
+
+	public void setNomClient(String nom)
+	{
+		this.NomClient = nom;
+	}
+
+	public String getNomClient()
+	{
+		return this.NomClient;
+	}
+
+	public void setImage(int[] image)
+	{
+		this.Image = image;
+	}
+
+	public int[] getImage()
+	{
+		return this.Image;
+	}
+
+	public void setLargeur(int l)
+	{
+		this.Largeur = l;
+	}
+
+	public int getLargeur()
+	{
+		return this.Largeur;
+	}
+
+	public void setLongueur(int l)
+	{
+		this.Longueur = l;
+	}
+
+	public int getLongueur()
+	{
+		return this.Longueur;
+	}
+
+	public void setType(JetonType type)
+	{
+		this.Type = type;
+	}
+
+	public JetonType getType()
+	{
+		return this.Type;
+	}
+
+	public void setCouleur(JetonCouleur color)
+	{
+		this.Couleur = color;
+	}
+
+	public JetonCouleur getCouleur()
+	{
+		return this.Couleur;
+	}
+
+	public void setCompteur(int compteur)
+	{
+		this.Compteur = compteur;
+	}
+
+	public int getCompteur()
+	{
+		return this.Compteur;
+	}
+
+	public void setContenu(String chaine)
+	{
+		this.Contenu = chaine;
+	}
+
+	public String getContenu()
+	{
+		return this.Contenu;
+	}
+}

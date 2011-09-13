@@ -1,0 +1,60 @@
+
+Le serveur 'serveur1' va être lancé...
+Connexion au réseau de l'objet 'serveur1' Impossible
+Appuyer sur <entrer> pour initier l'arret du système
+
+Le serveur 'serveur2' va être lancé...
+Connexion au réseau de l'objet 'serveur2' Impossible
+Appuyer sur <entrer> pour initier l'arret du système
+
+Le serveur 'rmi://localhost/serveur1' va être lancé...
+Connexion au réseau de l'objet '//localhost/serveur1' Impossible
+Appuyer sur <entrer> pour initier l'arret du système
+
+Le serveur 'rmi://localhost/serveur1' va être lancé...
+Appuyer sur <entrer> pour initier l'arret du système
+
+Le serveur 'rmi://localhost/serveur2' va être lancé...
+Appuyer sur <entrer> pour initier l'arret du système
+
+Le serveur 'rmi://localhost/serveur3' va être lancé...
+Appuyer sur <entrer> pour initier l'arret du système
+-- Le serveur rmi://localhost/serveur1 à récu une demande d'accès de rmi://localhost/client
+-- Le serveur rmi://localhost/serveur2 à récu une demande d'accès de rmi://localhost/client
+-- Le serveur rmi://localhost/serveur3 à récu une demande d'accès de rmi://localhost/client
+-- Le serveur rmi://localhost/serveur1 à récu une demande d'accès de rmi://localhost/client
+-- rmi://localhost/serveur1:14 effectue 'negatif' sur la partie 0 du client rmi://localhost/client
+-- rmi://localhost/serveur1:16 effectue 'negatif' sur la partie 2 du client rmi://localhost/client
+-- rmi://localhost/serveur1:15 effectue 'negatif' sur la partie 1 du client rmi://localhost/client
+-- rmi://localhost/serveur1:14 effectue 'negatif' sur la partie 4 du client rmi://localhost/client
+-- rmi://localhost/serveur2:14 effectue 'negatif' sur la partie 3 du client rmi://localhost/client
+-- rmi://localhost/serveur1:14 effectue 'negatif' sur la partie 7 du client rmi://localhost/client
+-- rmi://localhost/serveur1:15 effectue 'negatif' sur la partie 6 du client rmi://localhost/client
+-- rmi://localhost/serveur2:15 effectue 'negatif' sur la partie 5 du client rmi://localhost/client
+-- rmi://localhost/serveur1:16 effectue 'negatif' sur la partie 8 du client rmi://localhost/client
+-- rmi://localhost/serveur1:14 effectue 'negatif' sur la partie 9 du client rmi://localhost/client
+-- rmi://localhost/serveur1:15 effectue 'negatif' sur la partie 10 du client rmi://localhost/client
+-- rmi://localhost/serveur1:14 effectue 'negatif' sur la partie 11 du client rmi://localhost/client
+-- rmi://localhost/serveur1:15 effectue 'negatif' sur la partie 12 du client rmi://localhost/client
+-- rmi://localhost/serveur1:16 effectue 'negatif' sur la partie 13 du client rmi://localhost/client
+-- rmi://localhost/serveur1:14 effectue 'negatif' sur la partie 15 du client rmi://localhost/client
+-- rmi://localhost/serveur2:14 effectue 'negatif' sur la partie 14 du client rmi://localhost/client
+-- rmi://localhost/serveur1:15 effectue 'negatif' sur la partie 16 du client rmi://localhost/client
+-- rmi://localhost/serveur1:14 effectue 'negatif' sur la partie 17 du client rmi://localhost/client
+-- rmi://localhost/serveur1:15 effectue 'negatif' sur la partie 18 du client rmi://localhost/client
+-- rmi://localhost/serveur1:16 effectue 'negatif' sur la partie 19 du client rmi://localhost/client
+-- rmi://localhost/serveur1:14 effectue 'negatif' sur la partie 20 du client rmi://localhost/client
+-- rmi://localhost/serveur1:15 effectue 'negatif' sur la partie 21 du client rmi://localhost/client
+-- rmi://localhost/serveur1:16 effectue 'negatif' sur la partie 22 du client rmi://localhost/client
+-- rmi://localhost/serveur2:14 effectue 'negatif' sur la partie 23 du client rmi://localhost/client
+-- Le serveur rmi://localhost/serveur2 à récu une demande d'arrêt initiée par rmi://localhost/serveur1
+-- Le serveur rmi://localhost/serveur3 à récu une demande d'arrêt initiée par rmi://localhost/serveur1
+-- Le serveur rmi://localhost/serveur1 à récu une demande d'arrêt initiée par rmi://localhost/serveur1
+-- Le serveur rmi://localhost/serveur2 à récu une demande d'arrêt initiée par rmi://localhost/serveur1
+-- Le serveur rmi://localhost/serveur3 à récu une demande d'arrêt initiée par rmi://localhost/serveur1
+-- Le serveur rmi://localhost/serveur1 à récu une demande d'arrêt initiée par rmi://localhost/serveur1
+-- Cloud arrêté!
+-- Le serveur rmi://localhost/serveur1 à récu une demande d'accès de rmi://localhost/client
+-- Le serveur rmi://localhost/serveur2 à récu une demande d'accès de rmi://localhost/client
+-- Le serveur rmi://localhost/serveur3 à récu une demande d'accès de rmi://localhost/client
+-- Le serveur rmi://localhost/serveur1 à récu une demande d'accès de rmi://localhost/client

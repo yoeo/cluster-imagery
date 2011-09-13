@@ -1,0 +1,2 @@
+rmi://localhost/Serveur1
+rmi://localhost/Serveur2
